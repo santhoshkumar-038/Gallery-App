@@ -1,0 +1,26 @@
+/* Write your code here. */
+.list-item {
+  padding: 10px;
+}
+.image-alignment {
+  background-color: #ffffff;
+  border: none;
+}
+.apply-opacity-class {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+  .image-alignment {
+    height: 250px;
+    width: 150px;
+  }
+  .list-item {
+    padding: 0px;
+    margin: 0px;
+  }
+  .image {
+    height: 100px;
+    width: 100px;
+  }
+}

@@ -1,0 +1,47 @@
+/* Write your code here. */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.app-container {
+  height: 100vh;
+  width: 100vw;
+}
+.nature-text {
+  opacity: 0.5;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.photos-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.gallery-item {
+  height: 500px;
+  min-width: 400px;
+  padding: 20px;
+}
+.gallery-container {
+  padding: 20px;
+  list-style-type: none;
+}
+.heading {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .photos-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: -20px;
+  }
+  .gallery-item {
+    height: 250px;
+    width: 300px;
+  }
+}
